@@ -4,7 +4,21 @@
     <projectFile>CircusTrein/CircusTrein.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3081c504-a3c0-4c0e-a9b4-fc6f905b9b3f" name="Changes" comment="" />
+    <list default="true" id="3081c504-a3c0-4c0e-a9b4-fc6f905b9b3f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CircusTrein/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CircusTrein/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/Animal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/AnimalSize.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/AnimalSize.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/Wagon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/Wagon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/CircusTrein.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/CircusTrein.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/CircusTrein.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/CircusTrein.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,24 +33,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/usr/share/dotnet/dotnet",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/usr/share/dotnet/dotnet&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/home/maya/.config/JetBrains/Rider2022.3/resharper-host/DecompilerCache",
-      "/home/maya/.config/JetBrains/Rider2022.3/resharper-host/SourcesCache",
-      "/home/maya/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/home/maya/.config/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
+      &quot;/home/maya/.config/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/home/maya/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="CircusTrein" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/CircusTrein/bin/Debug/net7.0/CircusTrein" />
@@ -69,6 +83,7 @@
       <workItem from="1676278666739" duration="1307000" />
       <workItem from="1676450039990" duration="1812000" />
       <workItem from="1676452619544" duration="2246000" />
+      <workItem from="1676536969228" duration="2765000" />
     </task>
     <servers />
   </component>

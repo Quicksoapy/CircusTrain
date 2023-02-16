@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "52rWpork5GA5d0O/LQvzXL0+hgqA6MTJbcL5a64gywCNDFVTSeviW41hr/5rPxTndjKCY8RXznadXPrEzmc1Lg==",
+  "dgSpecHash": "nRHG0JkK9fs1jGgDavLD81WrQaGJsXEhszyTMzUgjruJKHG6pErp40Ibf19XZHSg0NCoz30Sd3l9f7O6h4TdtA==",
   "success": true,
-  "projectFilePath": "/home/maya/RiderProjects/CircusTrein/CircusTrein/CircusTrein.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/maya/RiderProjects/CircusTrain/CircusTrein/CircusTrein.csproj",
+  "expectedPackageFiles": [
+    "/home/maya/.nuget/packages/microsoft.netcore.app.ref/7.0.2/microsoft.netcore.app.ref.7.0.2.nupkg.sha512",
+    "/home/maya/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.2/microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512",
+    "/home/maya/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.2/microsoft.netcore.app.host.linux-x64.7.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

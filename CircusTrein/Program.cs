@@ -7,17 +7,12 @@ var animals = GenerateAnimalList(100);
 foreach (var animal in animals)
 {
     Wagon wagon = new Wagon();
-    if (wagon.Points >= (int)animal.AnimalSize)
+    if (wagon.CheckPoints(animal))
     {
         wagon.Animals.Add(animal);
-        wagon.Points -= (int)animal.AnimalSize;
+        wagon.Points -= animal.AnimalSizeInt();
     }
 }
-
-
-
-
-
 
 List<Animal> GenerateAnimalList(int iterations)
 {
