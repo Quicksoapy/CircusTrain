@@ -6,23 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="3081c504-a3c0-4c0e-a9b4-fc6f905b9b3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CircusTrein/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CircusTrein/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/Animal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/AnimalSize.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/AnimalSize.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CircusTrein/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/Wagon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/Wagon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/CircusTrein.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/CircusTrein.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/CircusTrein.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/CircusTrein.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/bin/Debug/net7.0/CircusTrein" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/bin/Debug/net7.0/CircusTrein" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/bin/Debug/net7.0/CircusTrein.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/bin/Debug/net7.0/CircusTrein.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/bin/Debug/net7.0/CircusTrein.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/bin/Debug/net7.0/CircusTrein.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/apphost" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/ref/CircusTrein.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/ref/CircusTrein.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/refint/CircusTrein.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/refint/CircusTrein.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a421bf72ce1bd97d2cd3e8739d53f71ff6052294923c475677806b3df7381/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,8 +86,17 @@
       <workItem from="1676278666739" duration="1307000" />
       <workItem from="1676450039990" duration="1812000" />
       <workItem from="1676452619544" duration="2246000" />
-      <workItem from="1676536969228" duration="2765000" />
+      <workItem from="1676536969228" duration="2786000" />
+      <workItem from="1676539788068" duration="3392000" />
     </task>
+    <task id="LOCAL-00001" summary="Moved some logic to seperate classes">
+      <created>1676539749766</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676539749766</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +117,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Moved some logic to seperate classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved some logic to seperate classes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
