@@ -2,17 +2,15 @@ namespace CircusTrein;
 
 public class Wagon
 {
-    public int Points { get; set; } = 10;
+    private List<Animal> Animals { get; } = new();
 
-    public List<Animal> Animals { get; set; }
-
-    public bool CheckPoints(Animal animal)
+    public void AddAnimal(Animal animal)
     {
-        if (Points >= animal.AnimalSizeInt())
-        {
-            return true;
-        }
-        
-        return false;
+        Animals.Add(animal);
+    }
+
+    public List<Animal> ReadAnimals()
+    {
+        return Animals;
     }
 }

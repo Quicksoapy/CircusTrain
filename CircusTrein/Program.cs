@@ -1,92 +1,28 @@
 ﻿using CircusTrein;
 
-List<Wagon> train = new List<Wagon>();
-List<Animal> Carnivores = new List<Animal>();
-List<Animal> LargeHerbivores = new List<Animal>();
-List<Animal> MediumHerbivores = new List<Animal>();
-List<Animal> SmallHerbivores = new List<Animal>();
-int SmallHerbivoresCount = 0;
+Train train = new Train();
+int smallHerbivoresCount = 0;
+int mediumherbivoresCount = 0;
 
-var animals = GenerateAnimalList(100);
+AnimalCollection animalCollection = new AnimalCollection();
+animalCollection.AddAnimals(GenerateAnimalList(100));
 
-foreach (var animal in animals)
+
+
+int wagonCount = 1;
+foreach (var wagon in train)
 {
-    if (animal.AnimalType == AnimalType.Carnivore)
+    Console.WriteLine("Wagon number: " + wagonCount);
+    foreach (var animal in wagon.Animals) 
     {
-        Carnivores.Add(animal);
-        continue;
+        Console.WriteLine(animal.AnimalSize + " " + animal.AnimalType);
     }
 
-    switch (animal.AnimalSize)
-    {
-        case AnimalSize.Large:
-            LargeHerbivores.Add(animal);
-            break;
-        case AnimalSize.Medium:
-            MediumHerbivores.Add(animal);
-            break;
-        case AnimalSize.Small:
-            SmallHerbivores.Add(animal);
-            break;
-    }
+    wagonCount += 1;
 }
 
-foreach (var animal in Carnivores)
-{
-    Wagon wagon = new Wagon();
-    wagon.Animals.Add(animal);
-    train.Add(wagon);
-}
-//True => is even number, else is odd number
-if (LargeHerbivores.Count % 2 == 0)
-{
-    for (int i = 0; i < LargeHerbivores.Count/2; i++)
-    {
-        Wagon wagon = new Wagon();
-        wagon.Animals.Add(LargeHerbivores[i]);
-        wagon.Animals.Add(LargeHerbivores[i + 1]);
-        train.Add(wagon);
-    }
-}
-else
-{
-    Wagon wagonOdd = new Wagon();
-    wagonOdd.Animals.Add(LargeHerbivores[0]);
-    wagonOdd.Animals.Add(MediumHerbivores[0]);
-    wagonOdd.Animals.Add(SmallHerbivores[0]);
-    wagonOdd.Animals.Add(SmallHerbivores[1]);
-    train.Add(wagonOdd);
-    
-    for (int i = 1; i < LargeHerbivores.Count/2; i++)
-    {
-        Wagon wagon = new Wagon();
-        wagon.Animals.Add(LargeHerbivores[i]);
-        wagon.Animals.Add(LargeHerbivores[i + 1]);
-        train.Add(wagon);
-    }
-}
+Console.WriteLine("Wagons: " + train.Count);
 
-foreach (var animal in MediumHerbivores)
-{
-    Wagon wagon = new Wagon();
-    wagon.Animals.Add(animal);
-    wagon.Animals.Add(animal);
-    wagon.Animals.Add(animal);
-    wagon.Animals.Add(SmallHerbivores[SmallHerbivoresCount]);
-    SmallHerbivoresCount += 1;
-}
-//TODO fix smallherbivores thing
-for (int i = SmallHerbivoresCount; i < SmallHerbivores.Count; i++)
-{
-    if (SmallHerbivores.Count - SmallHerbivoresCount < 10)
-    {
-        Wagon wagon = new Wagon();
-        for (int n = 0; n < SmallHerbivoresCount; n++)
-        {
-            wagon.Animals.Add(SmallHerbivores[i]);  
-        }
-    }
-}
 
 List<Animal> GenerateAnimalList(int iterations)
 {

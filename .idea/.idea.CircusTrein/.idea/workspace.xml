@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3081c504-a3c0-4c0e-a9b4-fc6f905b9b3f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CircusTrein/AnimalCollection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircusTrein/Train.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CircusTrein/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CircusTrein/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CircusTrein/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/bin/Debug/net7.0/CircusTrein" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/bin/Debug/net7.0/CircusTrein" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusTrein/Wagon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/Wagon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CircusTrein/bin/Debug/net7.0/CircusTrein.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/bin/Debug/net7.0/CircusTrein.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CircusTrein/bin/Debug/net7.0/CircusTrein.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/bin/Debug/net7.0/CircusTrein.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/CircusTrein.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/apphost" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/ref/CircusTrein.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/ref/CircusTrein.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/refint/CircusTrein.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CircusTrein/obj/Debug/net7.0/refint/CircusTrein.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +44,8 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
-      &quot;/home/maya/.config/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
-      &quot;/home/maya/.config/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/home/maya/.config/JetBrains/Rider2023.1/resharper-host/DecompilerCache&quot;,
+      &quot;/home/maya/.config/JetBrains/Rider2023.1/resharper-host/SourcesCache&quot;,
       &quot;/home/maya/.local/share/Symbols/src&quot;
     ]
   }
@@ -87,7 +83,13 @@
       <workItem from="1676450039990" duration="1812000" />
       <workItem from="1676452619544" duration="2246000" />
       <workItem from="1676536969228" duration="2786000" />
-      <workItem from="1676539788068" duration="3392000" />
+      <workItem from="1676539788068" duration="3426000" />
+      <workItem from="1677575616826" duration="1466000" />
+      <workItem from="1677749189195" duration="780000" />
+      <workItem from="1678178030844" duration="739000" />
+      <workItem from="1678180620459" duration="94000" />
+      <workItem from="1678181482196" duration="143000" />
+      <workItem from="1679042742538" duration="6742000" />
     </task>
     <task id="LOCAL-00001" summary="Moved some logic to seperate classes">
       <created>1676539749766</created>
@@ -96,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676539749766</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="smallherbivores">
+      <created>1676544954305</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676544954305</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +127,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Moved some logic to seperate classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved some logic to seperate classes" />
+    <MESSAGE value="smallherbivores" />
+    <option name="LAST_COMMIT_MESSAGE" value="smallherbivores" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
