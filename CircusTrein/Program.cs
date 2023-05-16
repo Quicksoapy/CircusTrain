@@ -2,10 +2,9 @@
 
 int wagonCount = 1;
 var generator = new Generator();
-
 var animals = generator.GenerateAnimalList(100, new Random());
-var sorter = new Sorter();
-var train = sorter.Sort(animals);
+
+var train = new Train().Sort(animals);
 
 foreach (var wagon in train)
 {
