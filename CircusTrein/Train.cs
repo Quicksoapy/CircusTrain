@@ -3,7 +3,8 @@ namespace CircusTrein;
 public class Train
 {
     private static List<Wagon> Wagons { get; } = new();
-
+    private static int SmallHerbivoresCount = 0;
+    private static int MediumherbivoresCount { get; set; }
     public static List<Wagon> ReadWagons()
     {
         return Wagons;
@@ -68,23 +69,25 @@ public class Train
             wagon.AddAnimal(animal);
             wagon.AddAnimal(animal);
             MediumherbivoresCount += 3;
-            if (SmallHerbivores.Count - SmallHerbivoresCount > 0)
+            if (animalCollection.SmallHerbivores.Count - SmallHerbivoresCount > 0)
             {
-                wagon.AddAnimal(SmallHerbivores[SmallHerbivoresCount]);
+                wagon.AddAnimal(animalCollection.SmallHerbivores[SmallHerbivoresCount]);
                 SmallHerbivoresCount += 1;
             }
             Wagons.Add(wagon);
         }
 
-        for (int i = SmallHerbivoresCount; i < SmallHerbivores.Count; i++)
+        for (int i = SmallHerbivoresCount; i < animalCollection.SmallHerbivores.Count; i++)
         {
             Wagon wagon = new Wagon();
             for (int n = 0; n < 10; n++)
             {
-                wagon.AddAnimal(SmallHerbivores[i]);  
+                wagon.AddAnimal(animalCollection.SmallHerbivores[i]);  
             }
             Wagons.Add(wagon);
         }
                 
     }
+
+    
 }

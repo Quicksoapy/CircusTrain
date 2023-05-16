@@ -20,4 +20,9 @@ public class Wagon
         
         return false;
     }
+
+    public void AddAnimal(Animal animal)
+    {
+        Animals.Add(animal);
+    }
 }

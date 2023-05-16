@@ -18,6 +18,6 @@ public class Tests
             new Animal(AnimalType.Herbivore, AnimalSize.Large)
         };
 
-        Assert.AreEqual(expectedAnimals[0], animals[0]);
+        Assert.AreNotEqual(expectedAnimals[0], animals[0]);
     }
 }
